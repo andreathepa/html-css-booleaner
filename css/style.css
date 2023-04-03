@@ -14,5 +14,14 @@
     font-size: 30px;
  }
 
+.banner{
+    background-color: lightskyblue;
+    height: 200px;
+    background-image: url(../img/pattern.png);
+}
 
- 
+.logo{
+    height: 300px;
+    width: 300px;
+    padding-top: 7%;
+}
