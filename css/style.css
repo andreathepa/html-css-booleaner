@@ -1,103 +1,131 @@
- /* top banner the booleaner */
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+ }
 
- .banner{
+ /* header */
+ 
+ .container{
+    width: 75%;
+    margin: 0 auto;
+ }
+
+ header{
     background-color: lightskyblue;
-    height: 200px;
+    height: 100px;
+    background-size: 30%;
     background-image: url(../img/pattern.png);
 }
+    
 
 .logo{
-    height: 300px;
-    width: 300px;
-    padding-top: 7%;
+    height: 50px;
+    margin-top: 40px;
 }
 
-/* main title */
- .maintitle{
+/* /* main title */
+main{
+    margin: 30px 10px;
+}
+
+h1{
     font-size: 35px;
-    font-weight: 900;
+    line-height: 40px;
  }
 
- /* newsroom date */
- .subtitle{
+ .author{
     color: grey;
-    font-size: 30px;
-    line-height: 1px;
+    font-size: 18px;
  }
 
- /* photo tim */
-.photo{
-    margin-bottom: 40px;
-    line-height: 1px;
+ .blue{
+    color: skyblue;
+    background-color: white;
+}
+
+ .date{
+    color: grey;
+    font-size: 12px;
+ }
+
+ .caption{
     font-size: 13px;
+    margin-bottom: 10px;
+ }
+
+/* text */
+ul{
+    margin: 30px 20px;
 }
 
- /* text */
-.longtext{
-    margin-bottom: 40px;
-}
-
-.list{
-    margin-bottom: 40px;
-    border-left: 40px;
+/* background color text */
+.yellow{
+    background-color: yellow;
 }
 
  /* table */
 
- table{
-    border-collapse: collapse;
-    width: 1800px;
-    height: 200px;
- }
-
- .texttable{
-    text-align: left;
-    text-align: justify;
- }
-thead{
+ thead{
     background-color: deepskyblue;
+}
+
+th{
     color: white;
     text-align: left;
-    height: auto;
-    }
+    padding: 10px;
+}
 
-    .bluetable{
-        background-color: skyblue;
-    }
+td{
+    padding: 10px;
+}
 
-    /* footer*/
-    h3{
-        color: grey;
-    }
+.dispari{
+    background-color: dodgerblue;
+}
 
-    .monitor{
-        background-image: url(../img/monitor.jpg);
-        background-repeat: no-repeat;
-        height: 280px;
-        width: 280px;
-        color: white;
-        text-align: center;
-        font-size: 30px;
-        font-weight: bold;
-    }
+table{
+    border: none;
+    border-collapse: collapse;
+    margin-bottom: 30px;
+}
 
-    .path{
-        background-image: url(../img/graph.jpg);
-        background-repeat: no-repeat;
-        height: 280px;
-        width: 280px;
-        color: white;
-        text-align: center;
-        font-size: 30px;
-        font-weight: bold;
-    }
+ .textt{
+    width: 50%;    
+ }
 
-     /* background color text */
-    .yellow{
-        background-color: yellow;
-    }
 
-    .blue{
-        color: skyblue;
-        background-color: white;
-    }
+.dispari{
+    background-color: skyblue;
+}
+
+/* footer*/
+footer{
+    margin: 20px 10px 0px 10px;
+}
+
+h3{
+    color: grey;
+}
+
+#monitor{
+    background-image: url(../img/monitor.jpg);
+}
+
+#path{
+    background-image: url(../img/graph.jpg);
+}
+
+.image-footer{
+    background-repeat: no-repeat;
+    height: 280px;
+    width: 280px;
+    color: white;
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+
+
+
